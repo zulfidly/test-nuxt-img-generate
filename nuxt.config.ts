@@ -3,9 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
   css: ["/assets/style.css"],
-  // image: {
-  //   storyblok: {
-  //     baseURL: 'https://a.storyblok.com'
-  //   }
-  // }
+  image: {
+    storyblok: {
+      baseURL: 'https://a.storyblok.com'
+    }
+  }
 });

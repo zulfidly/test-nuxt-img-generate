@@ -1,13 +1,14 @@
 <template>
     <div ref="imgctnr" class="w-auto h-auto border border-red-600 p-0">
         <NuxtImg 
-            sizes="sm:300px md:400px lg:600px"
             provider="storyblok"
+            sizes="sm:300px md:400px lg:600px"
             src="https://a.storyblok.com/f/242384/536x750/226f4e41d5/2023-07-21-event1.jpg" 
-        />
-
-    </div>
-</template>
+            />
+            
+        </div>
+    </template>
+        <!-- provider="storyblok" -->
             <!-- https://a.storyblok.com/f/242384/536x750/226f4e41d5/2023-07-21-event1.jpg -->
 <!-- 
     'sizes' above corresponds to width of the image
