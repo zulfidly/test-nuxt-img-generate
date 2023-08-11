@@ -5,8 +5,10 @@
             provider="storyblok"
             src="https://a.storyblok.com/f/242384/536x750/226f4e41d5/2023-07-21-event1.jpg" 
         />
+
     </div>
 </template>
+            <!-- https://a.storyblok.com/f/242384/536x750/226f4e41d5/2023-07-21-event1.jpg -->
 <!-- 
     'sizes' above corresponds to width of the image
     The screen sizes predefined by `@nuxt/image`:

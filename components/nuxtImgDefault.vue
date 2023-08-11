@@ -1,7 +1,6 @@
 <template>
-    <div ref="imgctnr" class="w-auto h-auto border border-red-600 p-0">
+    <div ref="imgctnr" class="w-auto h-auto border border-blue-600 p-0">
         <nuxt-img 
-            format="avif"
             src="/roberto-nickson.jpg"
             sizes="sm:300px md:400px lg:600px"
         />
